@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background-container">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
+        
+    <!-- <img src="https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg" alt=""> -->
+    <div class="Cal-box">
+
+        <div class="Cal-screen">
+            <!-- <div class="text"></div> -->
+            <input type="text" class="text" disabled>
+        </div>
+
+        <div class="Cal-buttons">
+            <tr>
+                <td><input type="button" value="C" id="clear"></td>
+                <br>
+            </tr>
+            <tr>
+                <td> <input type="button" value="1 " onclick="display('1')"/> </td>
+                <td> <input type="button" value="2 " onclick="display('2')"> </td>
+                <td> <input type="button" value="3 " onclick="display('3')"> </td>
+                <td> <input type="button" value="+ " onclick="display('+')"> </td>
+                <br>
+            </tr>
+            <tr>
+                <td> <input type="button" value="4 " onclick="display('4')"> </td>
+                <td> <input type="button" value="5 " onclick="display('5')"> </td>
+                <td> <input type="button" value="6 " onclick="display('6')"> </td>
+                <td> <input type="button" value="- " onclick="display('-')"> </td>
+                <br>
+            </tr>
+            <tr>
+                <td> <input type="button" value="7" onclick="display('7')"> </td>
+                <td> <input type="button" value="8" onclick="display('8')"> </td>
+                <td> <input type="button" value="9" onclick="display('9')"> </td>
+                <td> <input type="button" value="*" onclick="display('*')"> </td>
+                <br>
+            </tr>
+            <tr>
+                <td> <input type="button" value="%" onclick="display('%')"> </td>
+                <td> <input type="button" value="0" onclick="display('0')"> </td>
+                <td> <input type="button" value="." onclick="display('.')"> </td>
+                <td> <input type="button" value="=" onclick="calculate()" id="equal"> </td>
+                <br>
+            </tr>
+           
+            
+          
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
